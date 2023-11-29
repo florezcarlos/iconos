@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="icon" href="Amm/ordenador-portatil.ico" type="image/png">
+  <style>
+    body {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+
+    .social-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 80%;
+    }
+
+    .social-icon {
+      font-size: 48px;
+      margin: 10px;
+      animation: bounce 1s infinite alternate;
+    }
+
+    @keyframes bounce {
+      from {
+        transform: translateY(0);
+      }
+      to {
+        transform: translateY(-10px);
+      }
+    }
+
+    .facebook-icon {
+      color: #1877f2; /* Color azul de Facebook */
+    }
+
+    .whatsapp-icon {
+      color: #25d366; /* Color verde de WhatsApp */
+    }
+
+    .instagram-icon {
+      color: #bc2a8d; /* Color rosa de Instagram */
+    }
+
+    .youtube-icon {
+      color: red; /* Color rojo de YouTube */
+    }
+
+    .linkedin-icon {
+      color: #0a66c2; /* Color azul de LinkedIn */
+    }
+
+    .twitter-icon {
+      color: #1da1f2; /* Color azul de Twitter */
+    }
+
+    .github-icon {
+      color: #333; /* Color negro de GitHub */
+    }
+
+    .discord-icon {
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="social-container">
+    <i class="fab fa-youtube social-icon youtube-icon"></i>
+    <i class="fab fa-facebook social-icon facebook-icon"></i>
+    <i class="fab fa-whatsapp social-icon whatsapp-icon"></i>
+
+    <i class="fab fa-instagram social-icon instagram-icon"></i>
+    <i class="fab fa-linkedin social-icon linkedin-icon"></i>
+    <i class="fab fa-twitter social-icon twitter-icon"></i>
+
+    <i class="fab fa-github social-icon github-icon"></i>
+    <i class="fab fa-discord social-icon discord-icon"></i>
+  </div>
+</body>
+</html>
